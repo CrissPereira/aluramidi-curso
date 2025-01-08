@@ -30,6 +30,30 @@ h1 {
   gap: 10px;
   grid-template-columns: repeat(3, 1fr);
   padding: 10px;
+  margin-bottom: 5%;
+}
+
+.contador{
+ display: flex;
+ flex-direction: column;
+ gap: 10px;
+ 
+ align-items: center;
+}
+
+.contador__texto{
+  font-size: 2em;
+  color: #ffffff;
+}
+
+input[type=number] {
+  border-radius: 20px;
+  cursor: pointer;
+  font-family: 'Montserrat', sans-serif;
+  height: 80px;
+  width: 120px;
+  font-size: 3em;
+  text-align: center;
 }
 
 .tecla {
